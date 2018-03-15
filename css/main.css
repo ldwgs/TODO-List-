@@ -1,0 +1,25 @@
+/* forces to center all elements on the page */
+*
+{
+text-align: center !important;
+margin: auto !important;
+background-color: black;
+}
+
+/* center all elements in the unordered list */
+ul {
+        display:inline-block;
+        *display:inline; /*IE7*/
+        *zoom:1; /*IE7*/
+        margin-right:10px;
+        color:#62B1FE
+}
+
+.consolas {
+  font-family: Consolas, monaco, monospace;
+  font-size: 24px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  line-height: 26.4px;
+}
