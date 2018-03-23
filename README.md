@@ -16,3 +16,4 @@ This repository is to hold the contents of a TODO List Website.
 
 ## REFERENCES
 https://getbootstrap.com/
+https://www.flaticon.com/free-icon/checked_214353#term=check&page=1&position=20
