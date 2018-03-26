@@ -1,0 +1,371 @@
+/* Setting up our grid */
+.container {
+	width: 100%; /*Set the width of the entire website here */
+	margin-right: auto;
+	margin-left: auto; /* Margin-left and right are set to auto to center the container */
+
+}
+.seven:first-child,.eight:first-child, .nine:first-child, .ten:first-child,.eleven:first-child,.five:first-child, .four:first-child, .three:first-child, .two:first-child, .one:first-child, .six:first-child {
+	margin-left: 0; /* This line of code makes the left-most column align to the left of the screen */
+}
+.eleven {
+	width: 91.5%;
+	float: left;
+	margin-left: 2%;
+}
+.ten {
+	width: 83%;
+	float: left;
+	margin-left: 2%;
+}
+.nine {
+	width: 74.5%;
+	float: left;
+	margin-left: 2%;
+}
+.eight {
+	width: 66%;
+	float: left;
+	margin-left: 2%;
+}
+.seven {
+	width: 57.5%;
+	float: left;
+	margin-left: 2%;
+}
+.six {
+	width: 49%; /* This div spans six columns (the entire row)*/
+	float: left;
+	margin-left: 2%;
+}
+.five {
+	width: 40.5%; /* This div spans five columns */
+	margin-left: 2%;
+	float:left;
+}
+.four {
+	width: 32%;
+	float:left;
+	margin-left: 2%;
+}
+.three {
+	width: 23.5%;
+	float:left;
+	margin-left: 2%;
+}
+.two {
+	width: 15%;
+	float:left;
+	margin-left: 2%;
+
+}
+.one {
+	width: 6.5%;
+	float:left;
+	margin-left: 2%;
+}
+.row {
+	width: 100%;
+	clear: both; /* Clear creates new styles for the next row */
+	padding: 0px;
+	margin: 0px;
+
+}
+
+
+html,body
+{
+margin:0px;
+padding:0px;
+background-color:  #ECECEC;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+
+.row1{
+	height: 130px;
+}
+
+header {
+ width: 100%;
+ position: absolute;
+ top: 0;
+ left: 0;
+ z-index: 100;
+ padding: 20px;
+ background: #696969;
+}
+
+ul {
+ list-style: none;
+}
+
+li {
+ display: inline-block;
+ float: left;
+ padding: 10px
+}
+
+a {
+ color: #fff;
+ text-decoration: none;
+ font-weight: bold;
+}
+
+a:hover {
+ text-decoration: underline;
+}
+
+
+
+#DivLogo
+{ margin-left:10px;
+	position:relative;
+	padding-bottom:10px;
+	padding-top:30px;
+	font-family: poppins;
+	font-weight: bold;
+}
+
+#DivLogo a {text-decoration: none;
+
+}
+
+
+.Logo
+{
+	top:10px;
+	margin-left:10px;
+	margin-right:10px;
+	color:#fff;
+	position: relative;
+}
+
+
+
+#SpSlogan
+ {
+	font-size:35px;
+	font-weight:bold;
+
+}
+
+
+
+nav {
+ float: right;
+ padding: 30px;
+ font-family: poppins;
+}
+
+
+
+@media only screen and (max-width : 640px) {
+
+ header {
+ position: absolute;
+ }
+
+
+
+ nav ul, nav:active ul {
+ display: none;
+ position: absolute;
+ padding: 20px;
+ background: #c5c5c5;
+ right: 10px;
+ top: 65px;
+ width: 35%;
+ }
+
+ nav:hover ul {
+ display: block;
+ }
+
+ nav li {
+ text-align: center;
+ width: 100%;
+ padding: 15px 0;
+ margin: 0;
+ }
+}
+
+
+
+.row2{height:610px;}
+
+
+.row2-bg {
+	height: 110px;
+	background: #F64744;
+
+
+
+
+
+
+}
+
+.row2-content {
+				font-family: poppins;
+				font-size: 30px;
+			 color: white;
+			 width: 100%;
+			 text-align: center;
+			 position: relative;
+			 bottom: 85px;
+
+
+}
+
+
+.row2-contet h1 {padding-top: 60px;
+font-size: 30px;
+font-weight:900;
+bottom: 80px;
+ }
+
+
+
+
+ h1,h2,p {margin:0px;}
+
+ acronym {
+  text-decoration: none;
+}
+
+
+.row3 {height:inherit;
+	width: inherit;
+text-align: center;
+font-family: poppins;
+position:relative;
+}
+
+
+
+.row4 {position: relative;
+}
+
+
+.row4 .three, .row4 .six {
+height:333px;
+position: relative;
+border-radius: 10px;
+
+
+
+}
+
+
+
+
+.row5 .six, .row5 .three {
+height:333px;
+border-radius: 10px;
+position: relative;
+}
+
+
+.row6 .five, .row6 .three, .row6, .four  {
+	height: 333px;
+	margin-bottom: 20px;
+	position: relative;
+	border-radius: 10px;
+}
+
+footer {
+	height: 250px;
+	background-color: #1BBC9B;
+}
+
+.last {
+
+}
+
+.row4 .left {
+
+}
+
+
+.row4 .left:hover {
+
+}
+
+
+.row4 .middle {
+
+}
+
+
+
+.row4 .right {
+
+}
+
+.row4 .right:hover {
+
+}
+
+
+.row5 .left {
+
+}
+
+
+
+
+
+.row5 .middle {
+
+}
+
+.row5 .middle:hover {
+
+}
+
+.row5 .right {
+}
+
+.row5 .right:hover {
+}
+
+.row4,.row5, .row6 {
+
+}
+
+
+
+
+.row6 .left {
+}
+
+.row6 .left:hover {
+
+}
+
+.row6 .middle {
+
+
+}
+
+
+
+
+.row6 .right {
+
+}
+.row6 .right:hover {
+
+}
+
+
+
+.last{background-color: #F64744;
+ color: white;
+ font-family: poppins;
+}
+
+.last p {padding-left: 10px;
+padding-top: 20px;}
